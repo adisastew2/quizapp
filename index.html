@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Quiz App</title>
+	
+</head>
+<body>
+	<h1>Test Your Knowledge!</h1>
+  	<div class="container">
+	  	<div class="row">
+		  	<div class="col-md-4"></div><!-- end col 1 -->
+		  	<div class="col-md-4">
+		  	<!-- form -->
+		  		<!-- question 1 -->
+			  	<div id="question1" class="form-group has-feedback">
+			  		<label class="control-label" for="inputSuccess2">Question 1: What is Spider-man's "Spider sense" do?</label>
+			  		<input type="text" class="form-control" id="answer1" aria-describedby="inputSuccess2Status">
+			  		<span id="inputSuccess2Status" class="sr-only">(success)</span>
+				</div>
+				<!-- question 2 -->
+				<div id="question2" class="form-group has-feedback">
+				  <label class="control-label" for="inputWarning2">2: Who trained Daredevil?</label>
+				  <input type="text" class="form-control" id="answer2" aria-describedby="inputWarning2Status">
+				  <span id="inputWarning2Status" class="sr-only">(warning)</span>
+				</div>
+				<!-- question 3 -->
+				<div id="question3" class="form-group has-feedback">
+				  <label class="control-label" for="inputError2">3: Which Civil Rights figure is Magneto modeled after?</label>
+				  <input type="text" class="form-control" id="answer3" aria-describedby="inputError2Status">
+				  <span id="inputError2Status" class="sr-only">(error)</span>
+				</div>
+				<!-- question 4 -->
+			  	<div id="question4" class="form-group has-feedback">
+			  		<label class="control-label" for="inputSuccess2">4: What is Black Panther's Kingdom?</label>
+			  		<input type="text" class="form-control" id="answer4" aria-describedby="inputSuccess2Status">
+			  		<span id="inputSuccess2Status" class="sr-only">(success)</span>
+				</div>
+				<!-- question 5 -->
+				<div id="question5" class="form-group has-feedback">
+				  <label class="control-label" for="inputWarning2">5: He's Falcon in the MCU, but what's his real name?</label>
+				  <input type="text" class="form-control" id="answer5" aria-describedby="inputWarning2Status">
+				  <span id="inputWarning2Status" class="sr-only">(warning)</span>
+				</div>
+				<!-- question 6 -->
+				<div id="question6" class="form-group has-feedback">
+				  <label class="control-label" for="inputError2">6: Which DC character is Deadpool a parody of?</label>
+				  <input type="text" class="form-control" id="answer6" aria-describedby="inputError2Status">
+				  <span id="inputError2Status" class="sr-only">(error)</span>
+				</div>
+
+				<button type="button" onclick="checkAnswer()" class="btn btn-primary btn-lg">Submit!</button>
+				<!-- end form -->
+			</div><!-- end col 2 -->
+			<div class="col-md-4"></div><!-- end col 3 -->
+		</div><!-- end row -->
+	</div><!-- end container -->
+  	
+  	<script src="js/jquery-1.12.1.min.js"></script> 
+  	<script type="text/javascript" src="js/bootstrap.js"></script>	
+  	<script type="text/javascript" src="js/script.js"></script>	
+</body>
+</html>
