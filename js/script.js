@@ -10,7 +10,7 @@ function checkAnswer() {
 	}else {
 		box1.classList.remove("has-success")
 		box1.className += " has-error"
-		hintOne.innerHTML = "test"
+		hintOne.innerHTML = "Hint: 'My spider sense is...'"
 	}
 
 	// checks 2nd question
@@ -36,7 +36,7 @@ function checkAnswer() {
 	}else {
 		box3.classList.remove("has-success")
 		box3.className += " has-error"
-		hintThree.innerHTML = "test"
+		hintThree.innerHTML = "Hint: Magneto achieves his goals by any means necessary"
 	}
 
 	// checks 4th question
@@ -62,7 +62,7 @@ function checkAnswer() {
 	}else {
 		box5.classList.remove("has-success")
 		box5.className += " has-error"
-		hintFive.innerHTML = "test"
+		hintFive.innerHTML = "Trick question: The actor was in another movie with Eminem 'But I know something about you. You went to CRANBROOK, thats a private school. Whats the matter dawg, you embarrased? This guy's a gangsta? His real name's...'"
 	}
 
 	// checks 6th question
