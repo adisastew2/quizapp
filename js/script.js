@@ -7,6 +7,7 @@ function checkAnswer() {
 	if (answer1.toLowerCase()=="tingle") {
 		box1.className += " has-success"
 		box1.classList.remove("has-error")
+		hintOne.innerHTML = "CORRECT!"
 	}else {
 		box1.classList.remove("has-success")
 		box1.className += " has-error"
@@ -20,10 +21,11 @@ function checkAnswer() {
 	if (answer2.toLowerCase()=="stick") {
 		box2.className += " has-success"
 		box2.classList.remove("has-error")
+		hintTwo.innerHTML = "CORRECT!"
 	}else {
 		box2.classList.remove("has-success")
 		box2.className += " has-error"
-		hintTwo.innerHTML = "test"
+		hintTwo.innerHTML = "WRONG!"
 	}
 
 	// checks 3rd question
@@ -33,6 +35,7 @@ function checkAnswer() {
 	if (answer3.toLowerCase()=="malcolm x") {
 		box3.className += " has-success"
 		box3.classList.remove("has-error")
+		hintThree.innerHTML = "CORRECT!"
 	}else {
 		box3.classList.remove("has-success")
 		box3.className += " has-error"
@@ -46,10 +49,11 @@ function checkAnswer() {
 	if (answer4.toLowerCase()=="wakanda") {
 		box4.className += " has-success"
 		box4.classList.remove("has-error")
+		hintFour.innerHTML = "CORRECT!"
 	}else {
 		box4.classList.remove("has-success")
 		box4.className += " has-error"
-		hintFour.innerHTML = "test"
+		hintFour.innerHTML = "WRONG!"
 	}
 
 	// checks 5th question
@@ -59,6 +63,7 @@ function checkAnswer() {
 	if (answer5.toLowerCase()=="clarence") {
 		box5.className += " has-success"
 		box5.classList.remove("has-error")
+		hintFive.innerHTML = "CORRECT!"
 	}else {
 		box5.classList.remove("has-success")
 		box5.className += " has-error"
@@ -72,10 +77,11 @@ function checkAnswer() {
 	if (answer6.toLowerCase()=="deathstroke") {
 		box6.className += " has-success"
 		box6.classList.remove("has-error")
+		hintSix.innerHTML = "CORRECT!"
 	}else {
 		box6.classList.remove("has-success")
 		box6.className += " has-error"
-		hintSix.innerHTML = "test"
+		hintSix.innerHTML = "WRONG!"
 	}
 }
 
