@@ -85,10 +85,42 @@ function checkAnswer() {
 	}
 }
 
+//enter key submit
+answer1.onkeydown = function(e){
+   if(e.keyCode == 13){
+     checkAnswer()
+   }
+	}
 
+answer2.onkeydown = function(e){
+   if(e.keyCode == 13){
+     checkAnswer()
+   }
+	}
 
+answer3.onkeydown = function(e){
+   if(e.keyCode == 13){
+     checkAnswer()
+   }
+	}
 
+answer4.onkeydown = function(e){
+   if(e.keyCode == 13){
+     checkAnswer()
+   }
+	}	
 
+answer5.onkeydown = function(e){
+   if(e.keyCode == 13){
+     checkAnswer()
+   }
+	}
+
+answer6.onkeydown = function(e){
+   if(e.keyCode == 13){
+     checkAnswer()
+   }
+	}
 
 
 
